@@ -15,10 +15,12 @@ a{
     color: currentColor;
 }
 
+
 /* FONT */
 body{
     font-family: 'Playpen Sans', cursive;
 }
+
 
 /* LAYOUT STYLE */
 .container{
@@ -33,15 +35,49 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-.row.reverse{
+.row-reverse{
 flex-direction: row-reverse;
 }
+
+
+/* UTILITY */
 .mb20{
     margin-bottom: 20px;
 }
-.col-1-6{
-    width: calc(100%/6);
+.ptb50{
+padding: 50px 0;
 }
+.col-4{
+    width:calc(100%/3);
+}
+.col-8{
+    width:calc(2*100%/3);
+}
+.col-12{
+    width: 100%;
+}
+.title{
+    font-size: 46px;
+    font-weight: 700;
+}
+.subtitle{
+    font-size: 28px;
+}
+.text, .box{
+    font-size: 18px;
+}
+.box{
+    line-height: 28px;
+    border-radius: 15px;
+    min-width: 70px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px 6px;
+    margin: 10px;
+}
+
+
 .col-1-3{
     width: calc(100%/3);
 }
@@ -54,18 +90,9 @@ flex-direction: row-reverse;
 .col-25{
     width:25%;
 }
-.col-4{
-    width:calc(100%/3);
-}
-.col-8{
-    width:calc(2*100%/3);
-}
-.col-80{
-    width: 80%;
-}
-.col-100{
-    width: 100%;
-}
+
+
+
 
 
 /* BACKGROUND SECTION */
@@ -113,14 +140,7 @@ flex-direction: row-reverse;
     background-image:url(./img/jumbo.png);
     background-size:cover;
 }
-.box{
-    line-height: 28px;
-    border-radius: 15px;
-    min-width: 70px;
-    text-align: center;
-    background-color: white;
-    color: black;
-}
+
 
 /* NAVBAR */
 .navbar{
@@ -140,37 +160,35 @@ flex-direction: row-reverse;
     text-align: center;
     color:white;
 }
-.title{
-    font-size: 46px;
-    font-weight: 700;
-}
-.text, .box.download, .box.browse{
-    font-size: 18px;
-}
-.box.download, .box.browse{
-    padding: 10px 6px;
-    margin: 10px;
-}
+
 .box.browse{
     background-color:#23272A;
     color: white;
 }
+
 /* SPECIFIC MAIN STYLE */
-.col-4,.col-8{
+.col-4,.col-8,.col-12{
     min-height: 600px;
 }
-
-
-.col-80.bg-violet, .col-4.bg-pink, .col-8.bg-lightblu, .col-100.bg-green{
-    margin:20px 0px;
+.col-12{
+   text-align: center;
 }
-.col-80.bg-violet, .col-1-3.bg-darkpink, .col-25.bg-darkcyan{
+.stars{
+    padding-top: 15px;
+    background-image: url(./img/stars.svg);
+    background-position: center;
+    background-size:contain;
+}
+.col-12 .box{
+    background-color:#8EA1E1 ;
+}
+
+
+.col-1-3.bg-darkpink, .col-25.bg-darkcyan{
     min-height: 300px;
 }
 
-.col-100.bg-green{
-    min-height: 500px;
-}
+
 
 /* SPECIFIC FOOTER STYLE */
 .col-100.bg-cyan{
