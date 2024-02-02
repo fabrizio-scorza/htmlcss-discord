@@ -92,38 +92,10 @@ padding: 50px 0;
 
 
 /* BACKGROUND SECTION */
-.bg-gray{
-    background-color: lightslategray;
-}
-.bg-blu{
-    background-color: blue;
-}
-.bg-pink{
-    background-color: pink;
-}
-.bg-violet{
-    background-color: violet;
-}
-.bg-lightblu{
-    background-color: lightblue;
-}
-
-.bg-green{
-    background-color: green;
-}
-
-.bg-darkpink{
-    background-color: palevioletred;
-}
-.bg-darkcyan{
-    background-color: darkcyan;
-}
 .bg-cyan{
     background-color: cyan;
 }
-.bg-orange{
-    background-color: orange;  
-}
+
 
 
 /* SPECIFIC HEADER STYLE */
@@ -171,7 +143,7 @@ padding: 50px 0;
 }
 
 /* SPECIFIC FOOTER STYLE */
-.footer.subtitle{
+.footer.subtitle, .colortext{
 color:#7289DA ;
 }
 .main-footer .text{
@@ -187,14 +159,8 @@ color:#7289DA ;
     justify-content: space-between;
     min-height:30px;
 }
-.border{
-    border-bottom: 2px  solid gray;
-}
 .button{
     max-width: 70px;
-}
-.col-1-3.bg-darkpink, .col-25.bg-darkcyan{
-    min-height: 300px;
 }
 
 
