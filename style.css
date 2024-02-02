@@ -21,12 +21,19 @@ a{
     max-width: 1000px;
     margin: 0 auto;
 }
+.container-sm{
+    max-width: 700px;
+    margin: 0 auto;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
 }
 .row.reverse{
 flex-direction: row-reverse;
+}
+.mb20{
+    margin-bottom: 20px;
 }
 .col-1-6{
     width: calc(100%/6);
@@ -97,26 +104,57 @@ flex-direction: row-reverse;
 
 
 /* SPECIFIC HEADER STYLE */
-
-.navbar{
-    min-height: 30px;
+.page-header{
+    min-height: 400px;
+    background-image:url(./img/jumbo.png);
+    background-size:cover;
 }
-.logo, .link, .login{
-    display:flex;
-    align-items: center;
+.box{
+    line-height: 28px;
+    border-radius: 15px;
+    min-width: 70px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+/* NAVBAR */
+.navbar{
+    justify-content: space-between;
+    align-items:flex-end;
 }
 .link{
-    justify-content: center;
+    color:white;
+    display: flex;
+    gap: 20px;
+    align-self: center;
 }
-.login{
-    justify-content:flex-end;
+
+/* BANNER  */
+.banner{
+    padding: 30px 0;
+    text-align: center;
+    color:white;
+}
+.title{
+    font-size: 46px;
+    font-weight: 800;
+}
+.text, .box.download, .box.browse{
+    font-size: 18px;
+}
+.box.download, .box.browse{
+    padding: 10px 6px;
+    margin: 10px;
+}
+.box.browse{
+    background-color:#23272A;
+    color: white;
 }
 
 
 /* SPECIFIC MAIN STYLE */
-.row.banner{
-    justify-content: center;
-}
+
 .section.bg-blu{
     border-bottom: 2px solid gray;
 }
@@ -146,9 +184,7 @@ flex-direction: row-reverse;
 .button{
     max-width: 70px;
 }
-.mb20{
-    margin-bottom: 20px;
-}
+
 
 
 
