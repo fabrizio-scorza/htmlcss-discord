@@ -144,6 +144,16 @@ flex-direction: row-reverse;
 .col-12 .box{
     background-color:#8EA1E1 ;
 }
+.wave,.wave-white{
+    background-image: url(img/wave.svg);
+    background-repeat: no-repeat;
+}
+.wave{
+    filter:invert(99%) sepia(0%) saturate(7471%) hue-rotate(337deg) brightness(143%) contrast(93%);
+}
+.wave-white{
+    filter:invert(100%);
+}
 
 /* SPECIFIC FOOTER STYLE */
 .main-footer .row{
