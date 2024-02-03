@@ -44,8 +44,17 @@ flex-direction: row-reverse;
 .mb20{
     margin-bottom: 20px;
 }
+.mb30{
+    margin-bottom: 30px;
+}
+.ptb30{
+    padding: 30px 0;
+    }
 .ptb50{
-padding: 50px 0;
+    padding: 50px 0;
+}
+.pb20{
+    padding-bottom: 20px;
 }
 .bg-lightgray{
     background-color:#F6F6F6;
@@ -84,18 +93,6 @@ padding: 50px 0;
     color: black;
     padding:6px;
 }
-
-
-
-
-
-
-
-/* BACKGROUND SECTION */
-.bg-cyan{
-    background-color: cyan;
-}
-
 
 
 /* SPECIFIC HEADER STYLE */
@@ -143,45 +140,28 @@ padding: 50px 0;
 }
 
 /* SPECIFIC FOOTER STYLE */
-.footer.subtitle, .colortext{
-color:#7289DA ;
+.main-footer .row{
+    align-items: baseline;
+}
+.colortext{
+    color:#7289DA ;
 }
 .main-footer .text{
     color: white;
 }
 #flag{
-    width: 40px;
+    width: 30px;
     height: 20px;
 }
-.col-12.bg-cyan{
-    padding: 10px 0;
+.social{
+     width: 22px;
+     filter: invert(100%); /*soluzione trovata su stack overflow*/
+}
+.main-footer .col-12{
     display: flex;
     justify-content: space-between;
-    min-height:30px;
-}
-.button{
-    max-width: 70px;
-}
-
-
-
-
-
-
-
-/* DEBUG RULES */
-.debug .container{
-        padding: 10px;
-}
-.debug .column{
-    border:2px dashed black;
-    padding: 6px;
-}
-.debug .col-2-3{
-    border:2px dashed black;
-    padding: 0;
-}
-.debug .col-25.bg-darkcyan{
-    border: 2px dashed white;
-    }
+ }
+ .border-blue{
+    border-top:2px solid #465379;
+ }
 
