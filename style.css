@@ -31,12 +31,29 @@ body{
     max-width: 700px;
     margin: 0 auto;
 }
-.row,.row-reverse{
+.row,.row-reverse,.cta{
     display: flex;
     flex-wrap: wrap;
 }
 .row-reverse{
-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+
+/* COMPONENTS */
+.title{
+    font-size: 46px;
+    font-weight: 700;
+}
+.box{
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 999px;
+    min-width: 70px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding:0px 20px;
 }
 
 
@@ -59,6 +76,12 @@ flex-direction: row-reverse;
 .pb20{
     padding-bottom: 20px;
 }
+.lh1_1{
+    line-height: 1.2em;
+}
+.lh1_7{
+    line-height: 1.7em;
+}
 .bg-lightgray{
     background-color:#F6F6F6;
 }
@@ -77,10 +100,6 @@ flex-direction: row-reverse;
 .col-12{
     width: 100%;
 }
-.title{
-    font-size: 46px;
-    font-weight: 700;
-}
 .subtitle{
     font-size: 28px;
 }
@@ -89,15 +108,6 @@ flex-direction: row-reverse;
 }
 .smalltext{
     font-size: 14px;
-}
-.box{
-    line-height: 28px;
-    border-radius: 15px;
-    min-width: 70px;
-    text-align: center;
-    background-color: white;
-    color: black;
-    padding:6px;
 }
 
 
@@ -120,6 +130,7 @@ flex-direction: row-reverse;
     align-self: center;
 }
 
+
 /* BANNER  */
 .banner{
     padding: 30px 0;
@@ -129,6 +140,11 @@ flex-direction: row-reverse;
 .box.browse{
     background-color:#23272A;
     color: white;
+}
+.cta{
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
 
 /* SPECIFIC MAIN STYLE */
